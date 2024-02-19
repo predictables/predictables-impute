@@ -1,0 +1,26 @@
+[project]
+name = "predictables-impute"
+version = "0.0.1"
+description = "Missing value imputation module for use with predictables"
+readme = "README.md"
+license = "MIT"
+keywords = [
+  "predictables",
+  "correlation",
+  "statistics",
+  "data",
+  "analysis",
+  "predictive",
+]
+authors = [{ name = "Andy Weaver" }]
+maintainers = [{ name = "Andy Weaver" }]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.black]
+line-length = 88
+
+
